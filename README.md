@@ -22,7 +22,6 @@ Install and configure Nginx and PHP 7.0 with Ubuntu 16.04
               fastcgi_pass unix:/run/php/php7.0-fpm.sock;
               }
     (3) location ~ /\.ht{
-    
               deny all:
               }
      
